@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+<script>
+  var corolla = {
+    brand: "Toyota",
+    make: "Corolla",
+    type: "Sedan",
+    colour: "Blue",
+    YearOfRealese :1997
+  };
+ 
+  var rangeRover = {
+    brand: "Range Rover",
+    make: "Sport",
+    type: "SUV",
+    colour: "white",
+    YearOfRealese: 2010
+  }
+
+  var cars = [corolla, rangeRover];
+  for(i=0; i< cars.length; i++)
+    
+    document.write("This is a  " + cars[i].brand + " car called a " + cars[i].make + "!  <br/>  It is a " + cars[i].type +
+      " which is " + cars[i].colour + " and was released in " + cars[i].YearOfRealese +"<br></br>");
+
+</script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+
+		function Person(name, surname, age, gender, interests){
+
+		this.firstname = name; 
+        this.lastname = surname; 
+        this.age = age; 
+        this.sex = gender;
+        this.interest = interests;
+
+
+        this.toString = function(){
+				document.write("Hi, my name is" + this.firstname + " of house " + this.lastname + " I am age" + this.age + " and I am a" + this.sex + " and I like "+ this.interest +"<br/> <br/>");
+			};
+
+		};
+
+  
+    	var person1 = new Person(" Perpetualjoy", "Gomba", " 25 years", " female",[" travelling and reading"]);
+
+    	var person2 = new Person(" Precious", "Chibaya", " 25 years", " female", [" eating and research"]);
+
+    	var person3 = new Person(" Pauline", "Muchawa", " 24 years", " female",[" singing and cooking"]);
+
+    	var person4 = new Person(" Milcah", "Mwandishora", " 29 years", " female", [" movies and sleeping"]);
+
+
+    	
+    	person1.toString();
+    	person2.toString();
+    	person3.toString();
+    	person4.toString();
+
+	</script>
+</body>
+</html>

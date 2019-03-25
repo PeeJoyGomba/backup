@@ -1,0 +1,34 @@
+<html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		function calculateSquare(number, number2, number3) {
+			// body...
+			return number * number2* number3;
+		}
+		
+		document.write(calculateSquare(6, 7, 8));
+
+
+		function createStudent(firstName, lastName, gender, relationshipStatus) {
+			var student = {};
+
+			student.name = firstName;
+			student.surname = lastName;
+			student.gender = gender;
+			student.status = relationshipStatus;
+
+
+			document.write("<br/>  <br/> Hie my name is " + student.name + " and I am " + student.gender);
+			document.write("<br/> " + student.surname + " is " + student.status);
+		}
+
+		createStudent("Joyie", "Jojo", "Female", "In relationship");
+		createStudent("Bae", "Babe", "Male" , "Taken by Joyie lol")
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $("ul li:first").hover(function(){
+            $(this).hide();
+          });
+        });
+
+        $(document).ready(function(){
+          $("button.girl").click(function(){
+            $(".weAreONe").hide();
+          });
+        });
+
+        $(document).ready(function(){
+          $("button.guy").click(function(){
+            $(".weAreONe, .we").show();
+          });
+        });
+      </script>
+  </head>
+  <body>
+    <h1>
+      Our Class
+    </h1>
+    <p class="weAreONe">
+      Hello, I am Yvonne and am very dirty minded
+    </p>
+    <ul>
+      <li class="we">Rumbi would be a good girl for Tau
+      </li>
+      <li>
+         Vimbai and Tatenda were meant to be
+      </li>
+
+      <li style = "color:blue">Tricia only dates guys who drive mercs
+      </li>
+    </ul>
+    <button class= "girl">Hide</button>
+    <button class="guy">Show</button>
+  </body>
+</html>
