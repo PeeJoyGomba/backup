@@ -1,0 +1,24 @@
+p{color:red}
+.looks{font-size:50}
+@media only screen and (max-width:600px){
+  body {
+    background-color: orange;
+  }
+  p{display:none
+  }
+}
+@media only screen and (min-width:768px){
+body{
+   background-color: green
+  }
+}
+@media only screen and (min-width:992px){
+body{
+   background-color: purple
+  }
+}
+@media only screen and (min-width:1200px){
+body{
+   background-color: maroon
+  }
+}
